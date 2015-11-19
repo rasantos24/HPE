@@ -19,3 +19,5 @@ c:\users\pc\documents\visual studio 2015\Projects\HackProElite\HackProElite\obj\
 c:\users\pc\documents\visual studio 2015\Projects\HackProElite\HackProElite\obj\Debug\HackProElite.pdb
 C:\Users\Rafael\Desktop\RASR-24\Universidad\Clases de la Carrera\Programacion 4\HackProElite-Test\obj\Debug\HackProElite.dll
 C:\Users\Rafael\Desktop\RASR-24\Universidad\Clases de la Carrera\Programacion 4\HackProElite-Test\obj\Debug\HackProElite.pdb
+C:\Users\Rafael\HackProElite\obj\Debug\HackProElite.dll
+C:\Users\Rafael\HackProElite\obj\Debug\HackProElite.pdb

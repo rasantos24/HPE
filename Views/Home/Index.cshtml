@@ -58,7 +58,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">Login</a>
+                        <a class="page-scroll" href="#about">Registrate</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Opciones</a>
@@ -79,9 +79,25 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>HackPro Elite</h1>
+                <h1>HackPro Elite - Login</h1>
                 <hr>
                 <p>Nuestro sitio web oficial del HackPro Elite.</p>
+
+                <p>
+                    <label class="uname" data-icon="u">Usuario ó Correo: </label>
+                    <input style="background-color:black" id="username" name="User" required="required" type="text" placeholder="Correo" />
+                    <label class="youpasswd" data-icon="p">Contraseña: </label>
+                    <input style="background-color:black" id="password" name="Password" required="required" type="password" placeholder="Contraseña" />
+                </p>
+                <p class="keeplogin">
+                    <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
+                    <label for="loginkeeping">Recordadme</label>
+                </p>
+                <p class="change_link">
+                    ¿Todavia no tienes cuenta?
+                    <a href="#about" class="to_register"> ¡Registrate Aqui! </a>
+                </p>
+
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Iniciar Sección</a>
             </div>
         </div>
@@ -94,6 +110,75 @@
                     <h2 class="section-heading">Registrate</h2>
                     <hr class="light">
                     <p class="text-faded">Si no tienes cuenta, registrate para formar parte del evento.</p>
+
+                    <table>
+                        <tr>
+                            <p>
+                                <td>
+                                    <label class="uname" data-icon="u">Nombre: </label>
+                                    <input style="background-color:black" id="usernamesignup" name="Nombre" required="required" type="text" placeholder="Nombre" />
+                                </td>
+                            </p>
+
+                            <p>
+                                <td>
+                                    <label class="uname" data-icon="u">Genero: </label>
+                                    <input style="background-color:black" id="usernamesignup" name="Genero" required="required" type="text" placeholder="M/F" />
+                                </td>
+                            </p>
+                        </tr>
+                        <tr>
+                            <p>
+                                <td>
+                                    <label class="uname" data-icon="u">Apellido: </label>
+                                    <input style="background-color:black" id="usernamesignup" name="Apellido" required="required" type="text" placeholder="Apellido" />
+                                </td>
+                            </p>
+
+                            <p>
+                                <td>
+                                    <label class="youmail" data-icon="e">Correo</label>
+                                    <input style="background-color:black" id="emailsignup" name="Correo" required="required" type="email" placeholder="Correo" />
+                                </td>
+                            </p>
+                        </tr>
+                        <tr>
+                            <p>
+                                <td>
+                                    <label class="uname" data-icon="u">Usuario: </label>
+                                    <input style="background-color:black" id="usernamesignup" name="User" required="required" type="text" placeholder="Usuario" />
+                                </td>
+                            </p>
+
+                            <p>
+                                <td>
+                                    <label class="youpasswd" data-icon="p">Contraseña</label>
+                                    <input style="background-color:black" id="passwordsignup" name="Password" required="required" type="password" placeholder="Contraseña" />
+                                </td>
+                            </p>
+                        </tr>
+                        <tr>
+                            <p>
+                                <td>
+                                    <label class="uname" data-icon="u">Celular: </label>
+                                    <input style="background-color:black" id="usernamesignup" name="Celular" required="required" type="number" placeholder="99999999" />
+                                </td>
+                            </p>
+
+                            <p>
+                                <td>
+                                    <label class="youpasswd" data-icon="p">Confirmar Contraseña</label>
+                                    <input style="background-color:black" id="passwordsignup_confirm" name="Password" required="required" type="password" placeholder="Contraseña" />
+                                </td>
+                            </p>
+                        </tr>
+                    </table>
+
+                    <p></p>     
+                        <p class="change_link">
+                            ¿Ya eres miembro de HackPro Elite?
+                            <a href="#tologin" class="to_register"> ¡Inicia Sección! </a>
+                        </p>
                     <a href="#" class="btn btn-default btn-xl">¡Entra!</a>
                 </div>
             </div>
